@@ -37,7 +37,7 @@ let handler = async (m, {
 📅 *U:* ${ago ? ago : 'not know'}
 🔗 *L:* ${url}
 
-*_جاري ارسال المقطع المرجو الانتظار قليلا．．．_*\n\n\♥/\n@noureddine_ouafy`
+*_جاري ارسال المقطع المرجو الانتظار قليلا．．．_*\n\n\♥/\mostaf.fc`
         let ytthumb = await (await conn.getFile(thumbnail)).data
         let msg = await generateWAMessageFromContent(m.chat, {
             extendedTextMessage: {
